@@ -2,9 +2,9 @@ const mysql = require('mysql');
 
 //mysql 연결
 const conn = mysql.createConnection({
-    host: 'localhost',
-    user: 'news',
-    password: '1234',
+    host: 'lecture-test.cg2c2nro2fra.ap-northeast-2.rds.amazonaws.com',
+    user: 'admin',
+    password: '01073172026',
     database: 'kdt9',
     port: 3306,
 });
